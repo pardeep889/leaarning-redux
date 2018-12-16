@@ -8,3 +8,15 @@ export function movieslist(){
         ]
     }
 }
+
+
+export function dirList(){
+    return{
+        type: "DIR_LIST",
+        payload: [
+            { id: 1, name: "dir 1" },
+            { id: 2, name: "dir 2" },
+            { id: 3, name: "dir 3" }
+        ]
+    }
+}
